@@ -61,6 +61,9 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ip"></a> [ip](#output\_ip) | RDS PostgreSQL instance private IPs |
+| <a name="output_password"></a> [password](#output\_password) | RDS PostgreSQL Password |
 | <a name="output_port"></a> [port](#output\_port) | RDS PostgreSQL instance port |
+| <a name="output_private_ips"></a> [private\_ips](#output\_private\_ips) | RDS PostgreSQL instance private IPs |
+| <a name="output_public_ips"></a> [public\_ips](#output\_public\_ips) | RDS PostgreSQL instance public IPs |
+| <a name="output_user_name"></a> [user\_name](#output\_user\_name) | RDS PostgreSQL User name |
 <!-- END_TF_DOCS -->
