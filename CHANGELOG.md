@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/compare/v1.1.0...v1.2.0) (2023-05-05)
+
+
+### Features
+
+* Add RDS PostgreSQL instance ID to output ([#4](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/issues/4)) ([49ed359](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/commit/49ed359fbe592e980dd7896069bae483568bff30))
+
 ## [1.1.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/compare/v1.0.0...v1.1.0) (2023-05-05)
 
 
