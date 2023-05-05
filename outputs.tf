@@ -1,3 +1,8 @@
+output "id" {
+  description = "RDS PostgreSQL instance ID"
+  value       = huaweicloud_rds_instance.main.id
+}
+
 output "private_ips" {
   description = "RDS PostgreSQL instance private IPs"
   value       = huaweicloud_rds_instance.main.private_ips

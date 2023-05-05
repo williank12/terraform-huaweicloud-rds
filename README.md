@@ -61,6 +61,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | RDS PostgreSQL instance ID |
 | <a name="output_password"></a> [password](#output\_password) | RDS PostgreSQL Password |
 | <a name="output_port"></a> [port](#output\_port) | RDS PostgreSQL instance port |
 | <a name="output_private_ips"></a> [private\_ips](#output\_private\_ips) | RDS PostgreSQL instance private IPs |
