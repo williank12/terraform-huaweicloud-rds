@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/compare/v1.0.0...v1.1.0) (2023-05-05)
+
+
+### Features
+
+* Add extra output values ([#3](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/issues/3)) ([792c3c1](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/commit/792c3c1321d7d111a095aa8e524dbf252f2f6f96))
+
 ## 1.0.0 (2023-04-14)
 
 
