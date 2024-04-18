@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/compare/v1.2.0...v1.3.0) (2024-04-18)
+
+
+### Features
+
+* Update version of tf and providers ([#9](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/issues/9)) ([2f1c120](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/commit/2f1c1207370f97336cf45fb6cb4084f0bb986a96))
+
 ## [1.2.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-rds-postgres/compare/v1.1.0...v1.2.0) (2023-05-05)
 
 
