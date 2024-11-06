@@ -31,3 +31,5 @@ override.tf.json
 # Idea IDE
 .idea
 *.iml
+
+.infracost

@@ -138,8 +138,8 @@ variable "instance_replica_type" {
   }
 }
 
-variable "postgres_version" {
-  description = "Indicates the postgresql version"
+variable "mysql_version" {
+  description = "Indicates the mysqlql version"
   type        = string
   default     = "14"
 }
@@ -207,7 +207,7 @@ variable "port" {
   default     = 5432
   validation {
     condition     = var.port >= 2100 && var.port <= 9500
-    error_message = "The PostgreSQL database port ranges from 2100 to 9500"
+    error_message = "The MySQL database port ranges from 2100 to 9500"
   }
 }
 

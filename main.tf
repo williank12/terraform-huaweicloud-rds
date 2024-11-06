@@ -4,9 +4,9 @@ data "huaweicloud_availability_zones" "zones" {
 
 
 data "huaweicloud_rds_flavors" "flavor" {
-  db_type       = "PostgreSQL"
+  db_type       = "MySQL"
   region        = var.region
-  db_version    = var.postgres_version
+  db_version    = var.mysql_version
   instance_mode = var.instance_mode
   vcpus         = var.instance_type.vcpus
   memory        = var.instance_type.memory
@@ -15,9 +15,9 @@ data "huaweicloud_rds_flavors" "flavor" {
 
 
 data "huaweicloud_rds_flavors" "flavor_replica" {
-  db_type       = "PostgreSQL"
+  db_type       = "MySQL"
   region        = var.region
-  db_version    = var.postgres_version
+  db_version    = var.mysql_version
   instance_mode = "replica"
   vcpus         = var.instance_type.vcpus
   memory        = var.instance_type.memory
@@ -63,8 +63,8 @@ resource "huaweicloud_rds_instance" "main" {
   security_group_id   = var.security_group_id
 
   db {
-    type     = "PostgreSQL"
-    version  = var.postgres_version
+    type     = "MySQL"
+    version  = var.mysql_version
     password = var.password
     port     = var.port
   }
@@ -117,12 +117,12 @@ resource "huaweicloud_rds_parametergroup" "main" {
   count = length(var.parameter_group_values) == 0 ? 0 : 1
 
   name        = local.name
-  description = format("RDS PostgreSQL Parameter Group for %s instance", local.name)
+  description = format("RDS MySQL Parameter Group for %s instance", local.name)
   region      = var.region
   values      = var.parameter_group_values
 
   datastore {
-    type    = "PostgreSQL"
-    version = var.postgres_version
+    type    = "MySQL"
+    version = var.mysql_version
   }
 }
